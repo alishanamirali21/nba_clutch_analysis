@@ -10,7 +10,10 @@ This project investigates the statistical impact of schedule fatigue on NBA team
 * **Analysis:** Python (Pandas/Seaborn) for statistical visualization.
 
 ## Key Findings
-* [Teams playing on 0 days rest suffer a measurable performance penalty, likely averaging a net negative point differential compared to their baseline."]
+Based on the analysis of 2023-24 NBA Season data:
+* **Performance Dip:** Teams playing on 0 days rest ("Back-to-Back") show a median Point Differential (Plus/Minus) below zero, compared to a positive median for rested teams.
+* **Variance:** The performance variability remains similar across both groups, suggesting that while the *average* performance drops, the volatility of the game outcome remains consistent.
+* **Visual Evidence:** See `data/fatigue_analysis.png` for the boxplot comparison.
 
 ## How to Run
 1. Install requirements: `pip install pandas nba_api matplotlib seaborn`
