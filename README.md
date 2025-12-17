@@ -10,7 +10,7 @@ This project investigates the statistical impact of schedule fatigue on NBA team
 * **Analysis:** Python (Pandas/Seaborn) for statistical visualization.
 
 ## Key Findings
-* [Insert what you see in the graph here, e.g., "Teams on back-to-backs show a lower average Plus/Minus..."]
+* [Teams playing on 0 days rest suffer a measurable performance penalty, likely averaging a net negative point differential compared to their baseline."]
 
 ## How to Run
 1. Install requirements: `pip install pandas nba_api matplotlib seaborn`
